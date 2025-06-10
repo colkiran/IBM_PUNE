@@ -1,0 +1,139 @@
+Data Structures
+----------------
+1. List
+2. Dictionary
+3. Tuple
+4. Set
+
+List
+----
+lists are similar to arrays
+
+what is an array?
+1. memory allocation is contagious
+2. collection of homogenous data
+
+
+Lists
+-----
+1. list are collection of heterogenous data
+2. memory allocation is not contagious
+3. its an ordered collection
+4. it is sub scriptable
+5. it is mutable
+6. it is enclosed in [ ]
+7. it is static (list size remains the same, manually)
+
+Functions to manipulate a list
+-------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+a = [1, 'a', True, 'four', 6, 8, 10]
+
+True, 8, 10, 1, 'a', 'four
+
+
+https://pythontutor.com/visualize.html#mode=edit
+
+
+
+
+
+Assignment
+
+Create the following table using formatting
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+2. use remove function and remove all 2's from the list
+
+l1 = [1, 1, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 1, 2, 3, 1, 1, 1, 1, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2]
+
+3. ['dec', 'oct', 'aug', 'sep', 'jan', 'may', 'feb', 
+'jul', 'nov', 'mar', 'apr', 'jun]
+
+sort the above list according to the clendar
+
+
+Dictionaries
+------------
+Also known as Associative array
+
+index   0    1    2    3    4
+arr = ['a', 'b', 'c', 'd', 'e']
+
+
+associative_array => {0: 'a', 1: 'b', '2': 'c', 3: 'd', 4: 'e'}
+
+0, 1, 2, 3, 4 are called as keys
+'a', 'b', 'c', 'd', 'e' are called as values
+
+emp = {'empid': 101, 'empname': 'Mike', 'age': 30}
+
+
+1. keys in a dictionary is unique
+2. keys are user defined
+3. its an unordered collection
+4. its mutable
+5. its enclosed in {k1: v1, k2: v2.....}
+
+functions to manipulate a dictionary
+
+'clear' - to clear a dictionary - returns a empty dictionary
+ 
+'copy',
+
+ 'fromkeys', - used to convert a list into a dictionary
+ 'get',      - will get the values
+ 'items',    - both keys and values from the dictionary
+ 'keys',     - keys are returned from the dictionary
+'pop',	     - will remove the specified key (value) from the dict
+ 'popitem',  - will remove both key and values
+ 'setdefault', - will add new key and value into the dict will not 			modify the existing data
+ 'update',  - will update the values from one dict into another
+
+ 'values'
+
+
+https://github.com/colkiran/IBM_PUNE
+
+Tuple
+------
+tuple is a immutable list
+
+tuples are enclosed in ()
+
+Set 
+---
+1. set are unordered collection
+2. its not sub scriptable
+3. is always unique
+4. is mutable
+5. is enclosed in {1, 2, 3, 4}
+
+
+FUNCTIONS
+---------
+
+
+
+
+
+
+
+
+
+
+
+
