@@ -1,0 +1,42 @@
+
+print("keys".center(60, "-"))
+player = {'name': 'Rohit', 'age': 38, 'runs': 105, 'oppn':"Aus"}
+print(f"Player :{player}")
+
+k = player.keys()
+print(k)
+
+print("\n")
+
+for k in player.keys():
+    print(k, "=>", player[k])
+
+print("values".center(60, "-"))
+player = {'name': 'Rohit', 'age': 38, 'runs': 105, 'oppn':"Aus"}
+print(f"Player :{player}")
+
+v = player.values()
+print(v)
+
+print("items".center(60, "-"))
+emp = {
+    'emp1': {'empid': 1234, 'ename': 'Jack', 'age': 35, 'desig': 'MGR','dept': 'finance', 'loc': 'del', 'sal': 125000},
+    'emp2': {'empid': 2233, 'ename': 'Tina', 'age': 29, 'desig': 'BDE','dept': 'MKT', 'loc': 'Che', 'sal': 75000},
+    'emp3': {'empid': 3303, 'ename': 'Kevin', 'age': 40, 'desig': 'GM','dept': 'Procurement', 'loc': 'Pune',
+             'sal': 150000}
+}
+
+print(f"emp :{emp}")
+
+print("-" * 60)
+print(f"emp1 :{emp['emp1']}")
+print(f"emp2 :{emp['emp2']}")
+print(f"emp3 :{emp['emp3']}")
+
+print("-" * 60)
+for ky, info in emp.items():
+    print(ky)
+    print("-" * len(ky))
+    for k, v in info.items():
+        print(k, "=>", v)
+    print("-" * 60)
