@@ -1,3 +1,4 @@
+
 def funLogger(fnc):
     def helper():
         print("My info logged into a service......")
@@ -8,30 +9,30 @@ def funLogger(fnc):
     return helper
 
 def normalFun():
-    print("Call me normal function.....")
+    print("Call me normal function......")
 
 funLogger(normalFun)
 print("-" * 60)
 
-funLogger(normalFun)()
+funLogger(normalFun)()          # calls the helper function
 print("-" * 60)
 
-res_fun = funLogger(normalFun)
-res_fun()
+fun_res = funLogger(normalFun)
+fun_res()
 print("-" * 60)
 
-print("-" * 60)
+# name of the variable is normalFun
 normalFun = funLogger(normalFun)
 normalFun()
-
-@funLogger              # => basicFun = funLogger(basicFun)
-def basicFun():
-    print("Call me basic function")
-
-# print("-" * 60)
-# basicFun = funLogger(basicFun)
-# basicFun()
+print("-" * 60)
 
 print("-" * 60)
-print(basicFun.__name__)
-basicFun()
+@funLogger          # basicFunc = funLogger(basicFunc)
+def basicFunc():
+    print("call me basic function.....")
+
+# basicFunc = funLogger(basicFunc)
+print(basicFunc.__name__)
+
+print("-" * 60)
+basicFunc()         # calls helper function

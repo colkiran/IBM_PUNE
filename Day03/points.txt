@@ -1,0 +1,103 @@
+Functions
+----------
+pass by value 		- data without address (immutable data)
+pass by reference	- data with address (mutable data)
+
+Lambdas
+--------
+anonymous function with a single expression
+
+syntax
+------
+result_exp = lambda x, y, z : expression using the variables
+
+Comprehensions
+---------------
+Concise way to create a new sequence (list, set, dictionary) from the existing ones
+
+List comprehension
+-------------------
+for x in range(1, 11):
+    print(x ** 2)
+
+[] = [print? loops filters]
+
+Dictionary Comprehension
+------------------------
+
+Scope of a variable
+--------------------
+1. local
+2. global
+3. non local
+----------------------------------------------------------------
+
+def callMe():
+    print(f"Apples from Ooty")
+
+
+def fun(fnc):
+    print("Hello")
+    fnc()
+    print("hi")
+    print('_' * 40)
+
+    def defineMe():
+        print(f"Orange from Kanpur")
+
+    return defineMe
+
+
+def funCallback(fnc):
+    print("Mera Barath Mahan")
+    fnc()
+    print("India is great")
+
+
+funCallback(fun(callMe))
+
+
+write a decorator which calculates the time taken by the function to execute
+
+def bankFlow(fnc):
+
+    def innerFun(amount):
+        print("=" * 60)
+        print("login....")
+        fnc(amount)
+        print("Logout....")
+        print("-" * 60)
+
+def deposit(amt):
+    print(f"credited {amt}.....")
+
+def withdraw(amt):
+    print(f"debited {amt}.....")
+
+-----------------------------------------------------------------------
+OOPS
+----
+Object Oriented Programming
+---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
