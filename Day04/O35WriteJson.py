@@ -6,7 +6,7 @@ dumps -- is used to encode any python object into JSON formatted data
 
 import json
 
-player ={
+player = {
     'players': [
         {'id': 'P101', 'Name': 'Sachin Tendulkar', 'Matches': 585, 'runs': 28500, 'age': 38},
         {'id': 'P102', 'Name': 'Sourav Ganguly', 'Matches': 430, 'runs': 19400, 'age': 36},
@@ -21,4 +21,15 @@ player ={
     ]
 }
 
-JFW = open("IndianTeam.json")
+JFW = open("IndianTeam.json", "w")
+json.dump(player, JFW, indent=4)
+JFW.close()
+
+print("dumps".center(60, "-"))
+empdata = {"name": 'Louis', 'age': 32, 'city': 'Los Angles'}
+print(empdata)
+print(type(empdata))
+
+res = json.dumps(empdata)
+print(res)
+print(type(res))
