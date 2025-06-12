@@ -1,0 +1,125 @@
+Write python programs to carry out the following by reading the relevant data:
+
+1.Calculate the area of a rectangle given its length and width.
+2.Convert a temperature from Celsius to Fahrenheit using the formula: F = (C * 9/5) + 32.
+3.Calculate the area of a circle given its radius using the formula: A = π * r^2.
+4.Compute the hypotenuse of a right triangle using the Pythagorean theorem: c = sqrt(a^2 + b^2).
+5.Calculate the simple interest on an investment using the formula: A = P * T * R / 100;
+6.Calculate the compound interest on an investment using the formula: A = P * (1 + r/n)^(n*t).
+7.Determine the volume of a sphere given its radius using the formula: V = (4/3) * π * r^3.
+8.Convert a distance from kilometers to miles using the formula: miles = kilometers * 0.621371.
+9.Calculate the sum of the first n natural numbers using the formula: sum = (n * (n + 1)) / 2.
+
+10.Compute the area of a triangle given the lengths of its three sides using Heron's formula.
+
+The formula is as follows:
+
+s = (a + b + c) / 2
+A = sqrt(s * (s - a) * (s - b) * (s - c))
+
+where:
+
+a, b, and c are the lengths of the triangle's sides.
+s is the semiperimeter (half of the perimeter) of the triangle.
+A is the area of the triangle.
+
+
+
+------------------------------------------------------------------------------------
+
+1. Write a program to check if a given number is positive, negative, or zero.
+
+2. Write a program to determine whether a given year is a leap year or not.
+
+3. Write a program to check if a given character is a vowel or a consonant.
+
+4. Write a program to find the largest of three numbers entered by the user.
+
+5. Write a program to check if a given number is even or odd.
+
+6. Write a program to determine the grade of a student based on their marks.
+
+90 or above: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+
+7. Write a program to determine if a triangle is equilateral, isosceles, or scalene based on its side lengths.
+
+8. Write a program to check if a given number is divisible by both 5 and 11.
+
+9.Write a program to calculate the net salary of an employee based on the following conditions:
+
+If the basic salary is less than or equal to 10000, the HRA (House Rent Allowance) is 20% of the basic salary
+and the DA (Dearness Allowance) is 80% of the basic salary.
+If the basic salary is greater than 10000, the HRA is 25% of the basic salary 
+and the DA is 90% of the basic salary.
+
+10. Write a program to calculate the income tax payable by an individual based on their annual income, considering the following tax slabs:
+
+Income less than or equal to 2.5 lakhs: No tax.
+Income greater than 2.5 lakhs and less than or equal to 5 lakhs: 5% of the income.
+Income greater than 5 lakhs and less than or equal to 10 lakhs: 10% of the income.
+Income greater than 10 lakhs: 15% of the income.
+
+-----------------------------------------------------------------------------------------------
+
+
+1. Write a program to print numbers from 1 to 10.
+
+2. Write a program to calculate the sum of all numbers from 1 to 100.
+
+3. Write a program to print the multiplication table of a given number.
+
+4. Write a program to find the factorial of a given number.
+
+5. Write a program to check if a given number is prime.
+
+6. Write a program to print the Fibonacci series up to a given number of terms.
+
+7. Write a program to calculate the sum of digits of a given number.
+
+8. Write a program to check if a given number is a palindrome.
+9. Write a program to find the sum of all odd numbers between 1 and 50
+
+10. Write a program to find the sum of all even numbers between 1 and 50
+
+-----------------------------------------------------------------------------------------
+
+Write a program to calculate the sum of the squares of numbers from 1 to 10.
+Write a program to print the even numbers between 1 and 100.
+Write a program to find the sum of all odd numbers between 1 and 50.
+Write a program to check if a given number is a perfect number.
+Write a program to print the ASCII values of all uppercase alphabets.
+Write a program to find the length of a given string.
+Write a program to calculate the product of the digits of a given number.
+Write a program to check if a given number is a strong number.
+
+
+-----------------------------------------------------------------------------------------
+
+Write a program to check if a given number is Armstrong.
+Write a program to reverse a given number.
+Write a program to calculate the power of a number using a loop.
+Write a program to find the greatest common divisor (GCD) of two numbers.
+Write a program to check if a given string is a palindrome.
+Write a program to print the ASCII values of all lowercase alphabets.
+Write a program to calculate the average of a list of numbers.
+Write a program to check if a given year is a leap year.
+Write a program to print the first 10 natural numbers in reverse order.
+Write a program to find the sum of the first 50 natural numbers.
+Write a program to print the factorial of numbers from 1 to 10.
+Write a program to check if a given string is a palindrome using a loop.
+
+----------------------------------------------------------------------------------------------
+
+Write a program to calculate the sum of the cubes of numbers from 1 to 10.
+Write a program to find the sum of all prime numbers between 1 and 100.
+Write a program to check if a given string is a pangram.
+Write a program to find the factorial of numbers from 1 to 10.
+Write a program to print the odd numbers between 1 and 100.
+Write a program to check if a given number is a perfect square.
+Write a program to find the sum of the digits of a given number until the sum is a single digit.
+Write a program to generate the following pattern
+

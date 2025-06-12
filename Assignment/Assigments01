@@ -1,0 +1,39 @@
+
+what is the next number which satisfies this condition
+
+4. write a code to generate pascals triangle
+
+            1
+           1 1
+          1 2 1
+         1 3 3 1
+        1 4 6 4 1
+
+
+5. (greedy ? )
+	farmer -> 3 daughters -> each daughter had a son
+        farmer had  mangoes in a room
+        farmer promisses his daughters that he is going distribute mangoes to them equally in the evening after his shopping.
+        In the absence of the father 1st daughter enters the room without the knowledge of her siblings
+	She makes three divisions of the available mangoes in the room and 1 mango was extra she gives that to her child, takes 1 division(heap) and mixes other two divsions and leaves the room.
+	Now 2nd daughter same idea and same execution
+	Now 2rd daughter same idea and same execution
+       Finally the father enters the room and finds some mangoes and distributes it as he promised.
+
+  how many mangoes were there in the room? num1,num2,num3
+
+Generate 5 such numbers
+
+
+
+6. write a code to generate identity matrix
+
+7. generate armstrong numbers between 1 and 500
+   153 = 1 ** 3 + 5 ** 3 + 3 ** 3
+       = 1 + 125 + 27
+       = 153
+
+1. write a code to create an indentity matrix
+
+2. write a code to create a magic matrix
+https://www.youtube.com/watch?v=GYBr8n-_Rq4
