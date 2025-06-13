@@ -1,0 +1,220 @@
+Class Attribute or Class Variable
+---------------------------------
+
+what is class variable?
+class variables are static 
+their values will be same across objects. 
+they are declared inside the class outside functions.
+they are accessible with class names
+
+Class Method
+------------
+Class method is accessible by class names
+
+Exercise
+--------
+write two class methods
+1. set the team header name
+2. get the team header name
+
+Team_Head = ""
+
+@classmethod
+def Set_Name(cls, name):
+    cls.Team_Head = name
+
+@classmethod
+def Get_Name(cls):
+   return cls.Team_Head
+
+Operator Overloading
+--------------------
++ = __add__()   => dunder_add_method => Magic Methods
+- = __sub__()	
+
+LHS 
+---
+10 + 20
+
+10 + "abc"
+
+"abc" + 10
+
+Arithmetic Operators
+--------------------
++
+-
+/
+*
+//
+
+Abstract Class
+--------------
+why do we need a abstract class?
+
+
+Packages and Modules
+--------------------
+Module 
+------
+module are the same as libraries in other technologies
+
+any python file can be called as a module
+
+
+
+Packages
+========
+folder that consists of modules
+
+
+ORACLE
+------
+oracle_conn
+
+
+XYZ
+---
+oracle_conn
+
+
+ORACLE.oracle_conn
+
+XYZ.oracle.com
+
+2.x
+---
+myfolder
+consume.pyc
+
+consume.py
+
+
+3.x
+---
+__pycache__ folder
+
+.pyc
+
+
+Storage
+-------
+environment variable path
+
+import file
+-----------
+1. if the file is found in the specified path
+2. creates a __pycache__ folder and creates .pyc file of it
+3. check for files with extension of .pth in native path, if present then import all the paths to sys.path
+4. check the date and time of creation of .py file vs .pyc file, expects .pyc file to have the latest date and time
+
+File IO
+-------
+Open a file
+Read a file
+Append data into a file
+Write data into a file
+
+Read a file randomly
+
+we are using .txt file as it stores the data in ASCII format
+
+
+FL.seek(offset, whence)
+
+offset - no of bytes
+
+whence = 0  - BOF
+         1  - CP
+         2  - EOF
+
+
+File Formats
+-------------
+1. CSV
+2. JSON
+3. SQLite
+4. XML
+
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+Regular Expressions
+-------------------
+
+what are regular expressions?
+
+pattern matching => (\w+\s\d+)
+
+?,  *
+
+? = single character
+* = series of characters
+
+dir *.txt
+dir a*.txt
+dir ?a*.txt
+
+Basic Regular Expressions
+-------------------------
+
+. 	- single character
+
+^	- beginning of the string
+$	- end of the string
+
+*	- zero or more occurrences
+?	- Zero or one occurrence
++	- one or more occurrences
+{n}	- exactly n times
+{n,}	- min n times and max infinite times
+{n, m}  - min n times and max m times
+|	- alternation (or operator)
+[]	- character class
+()	- grouping
+\	- supress the regex
+
+
+
+License Number
+--------------
+LCNO-KAR-05-2013-0879
+
+LCNO - same no changes
+
+KAR - KAR, KER, TND, APN, TNS, MAH
+
+05 - RTO - 01 - 73 (no 00)
+
+2013 - year =>  >2000
+
+2934 - (0001 - 9999)  no 0000
+
+
+ln = "LCNO-"
+
+
+if re.search(r'LCNO-([][])-()'
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment
+----------
+1. Create a class method where we take DOB as an argument instead of age.
