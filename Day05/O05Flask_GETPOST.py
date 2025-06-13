@@ -30,7 +30,7 @@ def user(usr):
 
 @app.route("/index")
 def index():
-    return render_template("index03.html", usrnm='Tyson', content="Fruits available in all seasons",fruits=['Apple', 'Orange', 'Grapes', 'Banana', 'Pineapple', 'Strawberry', 'Watermelon','Blueberry', 'Mango'])
+    return render_template("index02.html", usrnm='Tyson', content="Fruits available in all seasons",fruits=['Apple', 'Orange', 'Grapes', 'Banana', 'Pineapple', 'Strawberry', 'Watermelon','Blueberry', 'Mango'])
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
