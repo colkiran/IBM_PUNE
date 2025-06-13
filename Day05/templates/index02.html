@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {{ usrnm }}'s Web Page</title>
+</head>
+<body>
+    <h1> {{ usrnm}} Fruit Stall</h1>
+    <h1> {{ content }} </h1>
+    {% for fruit in fruits %}
+        <ul type="square">
+            <p> <h3> <li> {{ fruit }}</li></h3></p>
+        </ul>
+    {% endfor %}
+
+</body>
+</html>
